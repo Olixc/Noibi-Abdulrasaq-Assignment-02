@@ -11,6 +11,7 @@ const assignment = {};
  * If you did Challenge - 1, remove the comment in the line just after this function
  */
 function sumOfNumbers(arrayOfNumbers) {
+  // Using reduce method
   let sum = arrayOfNumbers.reduce((a, b) => a + b, 0);
   return sum;
 }
